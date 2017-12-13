@@ -8,7 +8,7 @@ import java.io.IOException;
 * @ClassName: FileUtil  
 * <p>Description: 对比两个文件内容是否相同 </p>
 * @author 宋建 songjian@zhihuihutong.com 
-* @date 2017年12月13日 上午10:46:27  
+* @date 2017年12月13日 上午10:46:27    
 *
  */
 public class FileUtil {
