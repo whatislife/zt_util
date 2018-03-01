@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ListUtil {
+
 	
 	/** 
 	 * 将一个list均分成n个list,主要通过偏移量来实现的 
@@ -24,7 +25,9 @@ public class ListUtil {
 	        }else{  
 	            value=source.subList(i*number+offset, (i+1)*number+offset);  
 	        }  
-	        result.add(value);  
+	        result.add(value);
+	        System.out.print("11222");
+
 	    }  
 	    return result;  
 	}  
